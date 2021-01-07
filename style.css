@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Blac;
+    src: url(./BlackRocker\ .ttf);
+}
+h1 {
+    font-family: Blac;
+}
+.a {
+    width: 100vw;
+    height:100vh;
+}
+.banner{
+    height: 100vh;
+    position: relative;
+}
+.slider{
+    width: 93%;
+    float: left;
+}
+.carousel-caption{
+    max-height: 350px !important;
+    max-width: 600px !important;
+    right: 70px !important;
+    left: auto !important;
+    top: 320px !important;
+    text-align: right !important;
+}
+.carousel-caption h1{
+    font-size: 50px;
+}
+.carousel-caption p{
+    margin-top: 20px;
+}
+.side-menu{
+    height: 100%;
+    width: 7%;
+    float: right;
+    background-color: #ff0000;
+    position: relative;
+    z-index: 1;
+}
+.side-menu i {
+    font-size: 20px;
+}
+.menu-icon{
+    width: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+.search-icon{
+    width: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+.side-menu::after{
+    content: '';
+    width: 1px;
+    height: 110px;
+    background: #ffffff;
+    left: 45px;
+    top: 180px;
+    position: absolute;
+}
+.carousel-indicators{
+    left: 85% !important;
+    height: 40% !important;
+    width: 95px !important;
+    top: 55% !important;
+    display: block !important;
+    color: #ffffff;
+}
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-left: 40px !important;
+    margin-top: 10px !important;
+    border: 2px solid #ffffff !important;
+}
+.share{
+    margin-top: 70px;
+    margin-left: 15px;    
+}
+.share i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.top-bar{
+    position: absolute;
+    margin: 30px 20px;
+    z-index: 1;
+}
+.top-bar .logo{
+    height: 50px;
+    width: auto;
+}
+.top-bar ul{
+    display: inline-flex;
+}
+.top-bar ul li{
+    list-style: none;
+    margin: 15px 20px;
+}
+.top-bar ul li a{
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+}
+.social-icons{
+    margin-top: 35%;
+    left: 5%;
+    position: absolute;
+    z-index: 1;
+}
+
+}
+.social-icons ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.social-icons ul li a{
+    color: #ffffff !important;
+}
